@@ -52,7 +52,7 @@ const componentes = [
 
     {
         nombre: "Resistor",
-        imagen: "../primer nivel/img/preguntas/resistor.png",
+        imagen: "../Primer Nivel/img/preguntas/resistor.png",
         polaridad: false,
         pines: []
     },
@@ -127,7 +127,7 @@ const componentes = [
 
     {
         nombre: "Pulsador",
-        imagen: "../primer nivel/img/preguntas/pulsador.png",
+        imagen: "../Primer Nivel/img/preguntas/pulsador.png",
         polaridad: false,
         pines: []
     },
@@ -139,7 +139,7 @@ const componentes = [
 
     {
         nombre: "Motoreductor",
-        imagen: "../primer nivel/img/preguntas/motor.png",
+        imagen: "../Primer Nivel/img/preguntas/motor.png",
         polaridad: true,
         pines: [
             {
@@ -160,7 +160,7 @@ const componentes = [
 
     {
         nombre: "Switch",
-        imagen: "../primer nivel/img/preguntas/swicht.png",
+        imagen: "../Primer Nivel/img/preguntas/swicht.png",
         polaridad: false,
         pines: []
     },
@@ -172,7 +172,7 @@ const componentes = [
 
     {
         nombre: "Potenciómetro",
-        imagen: "../primer nivel/img/preguntas/potenciometro.png",
+        imagen: "../Primer Nivel/img/preguntas/potenciometro.png",
         polaridad: false,
         pines: []
     },
@@ -184,7 +184,7 @@ const componentes = [
 
     {
         nombre: "LDR",
-        imagen: "../primer nivel/img/preguntas/ldr.png",
+        imagen: "../Primer Nivel/img/preguntas/ldr.png",
         polaridad: false,
         pines: []
     },
@@ -196,7 +196,7 @@ const componentes = [
 
     {
         nombre: "Fusible",
-        imagen: "../primer nivel/img/preguntas/fusible.png",
+        imagen: "../Primer Nivel/img/preguntas/fusible.png",
         polaridad: false,
         pines: []
     },
