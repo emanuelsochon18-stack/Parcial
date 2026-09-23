@@ -118,7 +118,7 @@ const componentes = [
 
     { 
         nombre: "Capacitor Cerámico", 
-        imagen: "img/simbologia/Ceramico.png" 
+        imagen: "img/simbologia/ceramico.png" 
     }, 
 
     { 
