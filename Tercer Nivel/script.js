@@ -133,7 +133,7 @@ const componentes = [
         nombre: "Batería",
         real: "../primer nivel/img/preguntas/bateria.png",
         simbolo: "../segundo nivel/img/simbologia/bateria.png"
-    }
+    },
 
 ];
 
