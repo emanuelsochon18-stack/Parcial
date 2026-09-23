@@ -47,92 +47,92 @@ const componentes = [
 
     {
         nombre: "Resistor",
-        real: "../primer nivel/img/preguntas/resistor.png",
-        simbolo: "../segundo nivel/img/simbologia/resistor.png"
+        real: "../Primer Nivel/img/preguntas/resistor.png",
+        simbolo: "../Segundo Nivel/img/simbologia/resistor.png"
     },
 
     {
         nombre: "Capacitor Electrolítico",
-        real: "../primer nivel/img/preguntas/capacitor.png",
-        simbolo: "../segundo nivel/img/simbologia/capacitor.png"
+        real: "../Primer Nivel/img/preguntas/capacitor.png",
+        simbolo: "../Segundo Nivel/img/simbologia/capacitor.png"
     },
 
     {
         nombre: "Diodo",
-        real: "../primer nivel/img/preguntas/diodo.png",
-        simbolo: "../segundo nivel/img/simbologia/diodo.png"
+        real: "../Primer Nivel/img/preguntas/diodo.png",
+        simbolo: "../Segundo Nivel/img/simbologia/diodo.png"
     },
 
     {
         nombre: "LED",
-        real: "../primer nivel/img/preguntas/led.png",
-        simbolo: "../segundo nivel/img/simbologia/led.png"
+        real: "../Primer Nivel/img/preguntas/led.png",
+        simbolo: "../Segundo Nivel/img/simbologia/led.png"
     },
 
     {
         nombre: "Pulsador",
-        real: "../primer nivel/img/preguntas/pulsador.png",
-        simbolo: "../segundo nivel/img/simbologia/pulsador.png"
+        real: "../Primer Nivel/img/preguntas/pulsador.png",
+        simbolo: "../Segundo Nivel/img/simbologia/pulsador.png"
     },
 
     {
         nombre: "Motoreductor",
-        real: "../primer nivel/img/preguntas/motor.png",
-        simbolo: "../segundo nivel/img/simbologia/motor.png"
+        real: "../Primer Nivel/img/preguntas/motor.png",
+        simbolo: "../Segundo Nivel/img/simbologia/motor.png"
     },
 
     {
         nombre: "Transformador",
-        real: "../primer nivel/img/preguntas/transformador.png",
-        simbolo: "../segundo nivel/img/simbologia/trasformador.png"
+        real: "../Primer Nivel/img/preguntas/transformador.png",
+        simbolo: "../Segundo Nivel/img/simbologia/trasformador.png"
     },
 
     {
         nombre: "Switch",
-        real: "../primer nivel/img/preguntas/swicht.png",
-        simbolo: "../segundo nivel/img/simbologia/switch.png"
+        real: "../Primer Nivel/img/preguntas/swicht.png",
+        simbolo: "../Segundo Nivel/img/simbologia/switch.png"
     },
 
     {
         nombre: "Potenciómetro",
-        real: "../primer nivel/img/preguntas/potenciometro.png",
-        simbolo: "../segundo nivel/img/simbologia/potenciometro.png"
+        real: "../Primer Nivel/img/preguntas/potenciometro.png",
+        simbolo: "../Segundo Nivel/img/simbologia/potenciometro.png"
     },
 
     {
         nombre: "LDR",
-        real: "../primer nivel/img/preguntas/ldr.png",
-        simbolo: "../segundo nivel/img/simbologia/ldr.png"
+        real: "../Primer Nivel/img/preguntas/ldr.png",
+        simbolo: "../Segundo Nivel/img/simbologia/ldr.png"
     },
 
     {
         nombre: "IC",
-        real: "../primer nivel/img/preguntas/ic.png",
-        simbolo: "../segundo nivel/img/simbologia/ic.png"
+        real: "../Primer Nivel/img/preguntas/ic.png",
+        simbolo: "../Segundo Nivel/img/simbologia/ic.png"
     },
 
     {
         nombre: "Fusible",
-        real: "../primer nivel/img/preguntas/fusible.png",
-        simbolo: "../segundo nivel/img/simbologia/fusible.png"
+        real: "../Primer Nivel/img/preguntas/fusible.png",
+        simbolo: "../Segundo Nivel/img/simbologia/fusible.png"
     },
 
     {
         nombre: "Capacitor Cerámico",
-        real: "../primer nivel/img/preguntas/Ceramico.png",
+        real: "../Primer Nivel/img/preguntas/Ceramico.png",
         simbolo: "../segundo nivel/img/simbologia/Ceramico.png"
     },
 
     {
         nombre: "Buzzer",
-        real: "../primer nivel/img/preguntas/buzzer.png",
+        real: "../Primer Nivel/img/preguntas/buzzer.png",
         simbolo: "../segundo nivel/img/simbologia/buzzer.png"
     },
 
     {
         nombre: "Batería",
-        real: "../primer nivel/img/preguntas/bateria.png",
-        simbolo: "../segundo nivel/img/simbologia/bateria.png"
+        real: "../Primer Nivel/img/preguntas/bateria.png",
+        simbolo: "../Segundo Nivel/img/simbologia/bateria.png"
     },
 
 ];
