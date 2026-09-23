@@ -151,7 +151,7 @@ document
         mensaje.textContent = "¡Bienvenido!";
 
         setTimeout(function () {
-            window.location.href = "../index.html";
+            window.location.href = "index.html";
         }, 800);
 
     });
