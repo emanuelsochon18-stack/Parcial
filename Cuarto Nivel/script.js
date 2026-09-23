@@ -132,7 +132,7 @@ const componentes = [
     {
         nombre: "Capacitor Cerámico",
         real: "../Primer Nivel/img/preguntas/ceramico.png",
-        simbolo: "../segundo nivel/img/simbologia/eramico.png",
+        simbolo: "../segundo nivel/img/simbologia/ceramico.png",
         funcion: "Almacenar pequeñas cantidades de energía y filtrar señales eléctricas"
     },
 
