@@ -379,7 +379,7 @@ function generarPregunta() {
         pregunta: texto,
 
         // IMAGEN DEL NIVEL 8
-        imagen: "../primer nivel/img/preguntas/resistor.png",
+        imagen: "../Primer Nivel/img/preguntas/resistor.png",
 
         respuestas: respuestas,
 
