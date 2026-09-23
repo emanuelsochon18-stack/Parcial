@@ -85,7 +85,7 @@ const componentes = [
 
     {
         nombre: "Diodo",
-        imagen: "img/diodo.png",
+        imagen: "img/Diodo.png",
         polaridad: true,
         pines: [
             {
