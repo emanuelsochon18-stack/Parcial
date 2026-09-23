@@ -47,84 +47,84 @@ const componentes = [
 
     {
         nombre: "Resistor",
-        real: "../primer nivel/img/preguntas/resistor.png",
+        real: "../Primer Nivel/img/preguntas/resistor.png",
         simbolo: "../segundo nivel/img/simbologia/resistor.png",
         funcion: "Limitar y controlar el paso de corriente"
     },
 
     {
         nombre: "Capacitor Electrolítico",
-        real: "../primer nivel/img/preguntas/capacitor.png",
+        real: "../Primer Nivel/img/preguntas/capacitor.png",
         simbolo: "../segundo nivel/img/simbologia/capacitor.png",
         funcion: "Almacenar energía eléctrica temporalmente"
     },
 
     {
         nombre: "Diodo",
-        real: "../primer nivel/img/preguntas/diodo.png",
+        real: "../Primer Nivel/img/preguntas/diodo.png",
         simbolo: "../segundo nivel/img/simbologia/diodo.png",
         funcion: "Permitir el paso de corriente principalmente en un solo sentido"
     },
 
     {
         nombre: "LED",
-        real: "../primer nivel/img/preguntas/led.png",
+        real: "../Primer Nivel/img/preguntas/led.png",
         simbolo: "../segundo nivel/img/simbologia/led.png",
         funcion: "Emitir luz cuando circula corriente eléctrica"
     },
 
     {
         nombre: "Pulsador",
-        real: "../primer nivel/img/preguntas/pulsador.png",
+        real: "../Primer Nivel/img/preguntas/pulsador.png",
         simbolo: "../segundo nivel/img/simbologia/pulsador.jpg",
         funcion: "Abrir o cerrar un circuito mientras se mantiene presionado"
     },
 
     {
         nombre: "Motoreductor",
-        real: "../primer nivel/img/preguntas/motor.png",
+        real: "../Primer Nivel/img/preguntas/motor.png",
         simbolo: "../segundo nivel/img/simbologia/motor.png",
         funcion: "Convertir energía eléctrica en movimiento mecánico con reducción de velocidad"
     },
 
     {
         nombre: "Transformador",
-        real: "../primer nivel/img/preguntas/transformador.png",
+        real: "../Primer Nivel/img/preguntas/transformador.png",
         simbolo: "../segundo nivel/img/simbologia/trasformador.png",
         funcion: "Transferir energía eléctrica entre circuitos y modificar el voltaje de corriente alterna"
     },
 
     {
         nombre: "Switch",
-        real: "../primer nivel/img/preguntas/swicht.png",
+        real: "../Primer Nivel/img/preguntas/swicht.png",
         simbolo: "../segundo nivel/img/simbologia/switch.png",
         funcion: "Abrir o cerrar un circuito eléctrico"
     },
 
     {
         nombre: "Potenciómetro",
-        real: "../primer nivel/img/preguntas/potenciometro.png",
+        real: "../Primer Nivel/img/preguntas/potenciometro.png",
         simbolo: "../segundo nivel/img/simbologia/potenciometro.png",
         funcion: "Variar manualmente la resistencia de un circuito"
     },
 
     {
         nombre: "LDR",
-        real: "../primer nivel/img/preguntas/ldr.png",
+        real: "../Primer Nivel/img/preguntas/ldr.png",
         simbolo: "../segundo nivel/img/simbologia/ldr.png",
         funcion: "Cambiar su resistencia según la cantidad de luz recibida"
     },
 
     {
         nombre: "IC",
-        real: "../primer nivel/img/preguntas/ic.png",
+        real: "../Primer Nivel/img/preguntas/ic.png",
         simbolo: "../segundo nivel/img/simbologia/ic.png",
         funcion: "Realizar funciones electrónicas mediante múltiples circuitos integrados en un solo encapsulado"
     },
 
     {
         nombre: "Fusible",
-        real: "../primer nivel/img/preguntas/fusible.png",
+        real: "../Primer Nivel/img/preguntas/fusible.png",
         simbolo: "../segundo nivel/img/simbologia/fusible.png",
         funcion: "Proteger el circuito interrumpiendo la corriente cuando es excesiva"
     },
@@ -138,20 +138,20 @@ const componentes = [
 
     {
         nombre: "Buzzer",
-        real: "../primer nivel/img/preguntas/buzzer.png",
+        real: "../Primer Nivel/img/preguntas/buzzer.png",
         simbolo: "../segundo nivel/img/simbologia/buzzer.png",
         funcion: "Producir un sonido mediante una señal eléctrica"
     },
 
     {
         nombre: "Batería",
-        real: "../primer nivel/img/preguntas/bateria.png",
+        real: "../Primer Nivel/img/preguntas/bateria.png",
         simbolo: "../segundo nivel/img/simbologia/bateria.png",
         funcion: "Suministrar energía eléctrica a un circuito"
     },
     {
         nombre: "Transistor",
-        real: "../primer nivel/img/preguntas/transistor.png",
+        real: "../Primer Nivel/img/preguntas/transistor.png",
         simbolo: "../segundo nivel/img/simbologia/bateria.png",
         funcion: "Funciona como un interruptor electrónico que abre o cierra circuitos"
     }
