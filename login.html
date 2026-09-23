@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ElectroGame - Login</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="encabezado">
+            <h1>⚡ ELECTROGAME</h1>
+            <p>Aprende Electrónica Jugando</p>
+        </div>
+
+
+        <div class="login-card">
+
+            <div class="icono">
+                ⚡
+            </div>
+
+
+            <!-- ========================= -->
+            <!-- INICIAR SESIÓN -->
+            <!-- ========================= -->
+
+            <div id="loginSeccion">
+
+                <h2>Iniciar sesión</h2>
+
+                <form id="formLogin">
+
+                    <div class="grupo">
+
+                        <label>Usuario</label>
+
+                        <input
+                            type="text"
+                            id="usuarioLogin"
+                            placeholder="Ingresa tu usuario"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="grupo">
+
+                        <label>Contraseña</label>
+
+                        <input
+                            type="password"
+                            id="contrasenaLogin"
+                            placeholder="Ingresa tu contraseña"
+                            required
+                        >
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn-login">
+
+                        Ingresar
+
+                    </button>
+
+                </form>
+
+
+                <p id="mensajeLogin"></p>
+
+
+                <button
+                    type="button"
+                    id="btnMostrarRegistro"
+                    class="btn-secundario">
+
+                    Crear una cuenta
+
+                </button>
+
+            </div>
+
+
+
+            <!-- ========================= -->
+            <!-- REGISTRO -->
+            <!-- ========================= -->
+
+            <div
+                id="registroSeccion"
+                style="display:none;">
+
+                <h2>Crear cuenta</h2>
+
+
+                <form id="formRegistro">
+
+
+                    <div class="grupo">
+
+                        <label>Nombre</label>
+
+                        <input
+                            type="text"
+                            id="nombreRegistro"
+                            placeholder="Nombre completo"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="grupo">
+
+                        <label>Usuario</label>
+
+                        <input
+                            type="text"
+                            id="usuarioRegistro"
+                            placeholder="Crea tu usuario"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="grupo">
+
+                        <label>Contraseña</label>
+
+                        <input
+                            type="password"
+                            id="contrasenaRegistro"
+                            placeholder="Crea una contraseña"
+                            minlength="6"
+                            required
+                        >
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn-login">
+
+                        Registrarse
+
+                    </button>
+
+                </form>
+
+
+                <p id="mensajeRegistro"></p>
+
+
+                <button
+                    type="button"
+                    id="btnMostrarLogin"
+                    class="btn-secundario">
+
+                    Ya tengo una cuenta
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="auth.js"></script>
+
+<script src="login.js"></script>
+
+</body>
+
+</html>

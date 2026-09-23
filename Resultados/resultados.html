@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resultados Finales - ElectroGame</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #101820;
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contenedor {
+            max-width: 1200px;
+            margin: auto;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #333;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #555;
+        }
+
+        th {
+            background: #111;
+        }
+
+        tr:hover {
+            background: #444;
+        }
+
+        .nota-final {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .volver {
+            display: block;
+            width: fit-content;
+            margin: 25px auto;
+            padding: 12px 25px;
+            background: #555;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .volver:hover {
+            background: #777;
+        }
+
+        #mensaje {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🏆 RESULTADOS FINALES</h1>
+
+    <div id="mensaje">
+        Cargando resultados...
+    </div>
+
+    <div class="contenedor">
+
+        <table id="tablaResultados">
+
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Jugador</th>
+                    <th>Nivel 1</th>
+                    <th>Nivel 2</th>
+                    <th>Nivel 3</th>
+                    <th>Nivel 4</th>
+                    <th>Nivel 5</th>
+                    <th>Nivel 6</th>
+                    <th>Nivel 7</th>
+                    <th>Nivel 8</th>
+                    <th>Nota Final</th>
+                </tr>
+            </thead>
+
+            <tbody id="tablaBody">
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <a href="../index.html" class="volver">
+        ← Volver al menú
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="resultados.js"></script>
+
+</body>
+</html>

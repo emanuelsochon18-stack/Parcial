@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ElectroGame - Nivel 6</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- BOTÓN PARA REGRESAR AL MENÚ PRINCIPAL -->
+    <a href="../index.html" class="btn-menu">
+        ← Menú principal
+    </a>
+
+    <div class="juego">
+
+        <header>
+
+            <h1>⚡ ElectroGame</h1>
+
+            <div class="informacion">
+
+                <span>Nivel 6</span>
+
+                <span>
+                    Puntos:
+                    <b id="puntos">0</b>
+                </span>
+
+                <span>
+                    Pregunta:
+                    <b id="numeroPregunta">1</b>
+                </span>
+
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <h2>Responda Correctamente</h2>
+
+
+            <!-- IMAGEN DEL COMPONENTE -->
+
+            <div class="componente">
+
+                <img
+                    id="imagenPregunta"
+                    src=""
+                    alt="Componente electrónico"
+                >
+
+            </div>
+
+
+            <p id="mensaje">
+                Selecciona el nombre correcto
+            </p>
+
+
+            <!-- RESPUESTAS -->
+
+            <div
+                id="respuestas"
+                class="respuestas"
+            ></div>
+
+
+            <button
+                id="siguiente"
+                class="siguiente"
+                onclick="siguientePregunta()"
+            >
+                Siguiente →
+            </button>
+
+        </main>
+
+    </div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>
