@@ -120,7 +120,7 @@ const componentes = [
     {
         nombre: "Capacitor Cerámico",
         real: "../Primer Nivel/img/preguntas/ceramico.png",
-        simbolo: "../Segundo Nivel/img/simbologia/Ceramico.png"
+        simbolo: "../Segundo Nivel/img/simbologia/ceramico.png"
     },
 
     {
