@@ -1329,50 +1329,54 @@ function siguientePregunta() {
 
 async function nivelCompletado() {
 
-    const punteoNivel = (puntos / 140) * 10;
+    const PUNTOS_MAXIMOS = componentes.length * 10 +
+        componentes.filter(c => c.polaridad).length * 10; // 190
+
+    const punteoNivel = Number(((puntos / PUNTOS_MAXIMOS) * 10).toFixed(2));
+
+    // Mostrar SIEMPRE la pantalla final
+    document.querySelector("h2").textContent = "🎉 ¡Nivel 5 completado!";
+    document.querySelector(".componente").style.display = "none";
+    document.getElementById("respuestas").style.display = "none";
+    document.getElementById("siguiente").style.display = "none";
+
+    document.getElementById("mensaje").innerHTML =
+        "Has identificado todos los componentes.<br><br>" +
+        "⭐ Puntuación del nivel: <strong>" + punteoNivel.toFixed(2) +
+        " / 10</strong><br><br>💾 Guardando resultado...";
 
     const usuarioGuardado = localStorage.getItem("usuarioActual");
 
     if (!usuarioGuardado) {
-        console.error("No hay una sesión activa");
+        document.getElementById("mensaje").innerHTML +=
+            "<br>⚠️ No hay una sesión activa.";
         return;
     }
 
     const usuario = JSON.parse(usuarioGuardado);
 
-    const { error: resultadoError } =
-        await supabaseClient
-            .from("resultados")
-            .upsert({
-                usuario_id: usuario.id,
-                nivel: 5,
-                punteo: punteoNivel,
-                completado: true
-            }, {
-                onConflict: "usuario_id,nivel"
-            });
+    const { error } = await supabaseClient
+        .from("resultados")
+        .upsert({
+            usuario_id: usuario.id,
+            nivel: 5,
+            punteo: punteoNivel,
+            completado: true
+        }, {
+            onConflict: "usuario_id,nivel"
+        });
 
-    if (resultadoError) {
-        console.error("Error al guardar resultado:", resultadoError);
+    if (error) {
+        console.error("Error al guardar resultado:", error);
+        document.getElementById("mensaje").innerHTML =
+            "🎉 ¡Nivel completado!<br><br>" +
+            "⭐ Puntuación: <strong>" + punteoNivel.toFixed(2) + " / 10</strong><br><br>" +
+            "❌ No se pudo guardar: " + error.message;
         return;
     }
 
-    document.querySelector("h2").textContent =
-        "🎉 ¡Nivel 5 completado!";
-
-    document.querySelector(".componente").style.display =
-        "none";
-
-    document.getElementById("respuestas").style.display =
-        "none";
-
-    document.getElementById("siguiente").style.display =
-        "none";
-
     document.getElementById("mensaje").innerHTML =
         "Has identificado todos los componentes.<br><br>" +
-        "⭐ Puntuación del nivel: <strong>" +
-        punteoNivel.toFixed(2) +
-        " / 10</strong><br><br>" +
-        "💾 Resultado guardado correctamente";
+        "⭐ Puntuación del nivel: <strong>" + punteoNivel.toFixed(2) +
+        " / 10</strong><br><br>💾 Resultado guardado correctamente";
 }
