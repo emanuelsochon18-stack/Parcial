@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ElectroGame - Resistencias</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="../index.html" class="btn-menu">
+        ← Menú principal
+    </a>
+
+    <div class="juego">
+
+        <header>
+
+            <h1>⚡ ElectroGame</h1>
+
+            <div class="informacion">
+
+                <span id="nivel">Nivel 8</span>
+
+                <span>
+                    Puntos:
+                    <b id="puntos">0</b>
+                </span>
+
+                <span>
+                    Pregunta:
+                    <b id="numeroPregunta">1</b>
+                </span>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <h2 id="textoPregunta">Cargando...</h2>
+
+            <!-- IMAGEN DE REFERENCIA -->
+            <div class="componente">
+                <img
+                    id="imagenPregunta"
+                    src=""
+                    alt="Circuito con resistores"
+                >
+            </div>
+
+            <p id="mensaje">
+                Selecciona la respuesta correcta
+            </p>
+
+            <!-- RESPUESTAS -->
+            <div
+                id="respuestas"
+                class="respuestas"
+            ></div>
+
+            <button
+                id="siguiente"
+                class="siguiente"
+                onclick="siguientePregunta()"
+            >
+                Siguiente →
+            </button>
+
+        </main>
+
+    </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
