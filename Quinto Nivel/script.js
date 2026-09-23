@@ -208,7 +208,7 @@ const componentes = [
 
     {
         nombre: "Capacitor Cerámico",
-        imagen: "img/Ceramico.png",
+        imagen: "img/ceramico.png",
         polaridad: false,
         pines: []
     },
@@ -220,7 +220,7 @@ const componentes = [
 
     {
         nombre: "Buzzer",
-        imagen: "img/buzzer.png",
+        imagen: "img/Buzzer.png",
         polaridad: true,
         pines: [
             {
